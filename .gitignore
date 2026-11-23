@@ -15,8 +15,8 @@ env/
 # Environment Variables
 .env
 
-# Model Weights (file besar, simpan terpisah)
-*.pt
+# Model Weights (file besar lain)
+# *.pt  ← dibutuhkan untuk deploy Streamlit
 *.pth
 *.onnx
 
